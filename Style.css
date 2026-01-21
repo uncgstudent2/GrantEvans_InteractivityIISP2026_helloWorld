@@ -1,0 +1,28 @@
+
+.collage{
+    position: absolute ;
+}
+
+#specialk{ 
+    background-color: red;
+}
+body{
+    background-color: aqua;
+}
+
+#page-content{
+    width: 88vw;
+}
+
+#pink{
+    color:pink
+}
+
+p{
+    color:blue
+}
+.cropContainer{
+    position: relative;
+    overflow: hidden;
+
+}
