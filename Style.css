@@ -26,3 +26,16 @@ p{
     overflow: hidden;
 
 }
+.container{
+    position:relative;
+    width: 100vw;
+    height: 200px;
+    background-color:aqua; 
+
+}
+
+.center{
+    position: absolute;
+    left: 50px;/*moving the element to the center of the screen*/
+    transform:translate(50%,0);
+}
