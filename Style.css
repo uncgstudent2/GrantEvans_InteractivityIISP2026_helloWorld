@@ -6,9 +6,7 @@
 #specialk{ 
     background-color: red;
 }
-body{
-    background-color: aqua;
-}
+
 
 #page-content{
     width: 88vw;
@@ -36,6 +34,49 @@ p{
 
 .center{
     position: absolute;
-    left: 50px;/*moving the element to the center of the screen*/
-    transform:translate(50%,0);
+    left: 50%;/*moving the element to the center of the screen*/
+    top:50%;
+    transform:translate(-50%,0);
+    margin:0;
+
+}
+
+.display-exp{
+    display: flex;
+    gap: 20px;
+}
+
+.display-exp div{
+    flex:1;
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+}
+
+.flex-container{
+    display: flex;
+    width:100vw;
+    background-color: lightpink;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2,h3,h4{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  animation-name:changeBG;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeBG{
+    from{background-color: aqua;}
+    to{background-color: aquamarine;}
+}
+
+h1:hover{
+    color:blueviolet
 }
