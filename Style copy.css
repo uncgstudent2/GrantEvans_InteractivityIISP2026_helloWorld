@@ -1,0 +1,83 @@
+.page-header{
+    text-align:center;
+}
+
+
+.collage{
+    position: absolute ;
+}
+
+#specialk{ 
+    background-color: red;
+}
+
+
+#page-content{
+    width: 88vw;
+}
+
+
+p{
+    color:blue
+}
+.cropContainer{
+    position: relative;
+    overflow: hidden;
+
+}
+.container{
+    position:relative;
+    width: 30vw;
+    height: 35px;
+    background-color:aqua; 
+
+}
+
+.center{
+    position: absolute;
+    left: 50%;/*moving the element to the center of the screen*/
+    top:50%;
+    transform:translate(-50%,0);
+    margin:0;
+
+}
+
+.display-exp{
+    display: flex;
+    gap: 20px;
+}
+
+.display-exp div{
+    flex:1;
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+}
+
+.flex-container{
+    display: flex;
+    width:100vw;
+    background-color: lightpink;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  animation-name:changeBG;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeBG{
+    from{background-color: rgb(28, 119, 119);}
+    to{background-color: aquamarine;}
+}
+
+h1:hover{
+    color:blueviolet
+}
