@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First WEb Page</title>
+</head>
+
+<body>
+
+    <section id="JSdemo">
+       
+        <button 
+        onclick="alert('you are finishing the assignment!')"
+        id="colorChangeButton"> This is the button</button>
+
+         <button 
+        onclick="prompt('what is yourname?','Grant Evans');document.getElementById('yourName').innerHTML='Grant Evans';"
+        id="colorChangeButton">
+        This is the button</button>
+
+         <button 
+        onclick="this.innertText='This is my Third One!';"
+        id="colorChangeButton"> 
+        Inner Text</button>
+    </section>
+
+    <style>
+        #colorChangeButton{
+            background-color:red;
+        }
+    </style>
+</body>
+
+</html>

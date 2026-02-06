@@ -33,6 +33,14 @@ p{
 
 }
 
+.container2{
+    position:relative;
+    width: 30vw;
+    height: 215px;
+    background-color:rgb(255, 206, 108); 
+
+}
+
 .center{
     position: absolute;
     left: 50%;/*moving the element to the center of the screen*/
@@ -71,6 +79,13 @@ h1{
   animation-duration:3s;
   animation-iteration-count:infinite;
   animation-direction: alternate;
+}
+
+h2,h3,h4{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 @keyframes changeBG{
